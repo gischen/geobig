@@ -20,13 +20,13 @@ export default class FeatureList extends Component {
       <div className={styles.wrapper}>
         <div className={styles.contentWrapper}>
           <div className={styles.titleWrapper}>
-            <h3 className={styles.title}>设计语言</h3>
+            <h3 className={styles.title}>公共安全与应急大数据平台</h3>
             <div className={styles.titleLine}>
               <div className={styles.titleHighlightLine} />
             </div>
           </div>
           <p className={styles.desc}>
-            突破传统平台产品设计风格束缚，新的探索尝试，启发传统设计认知结合设计趋势，衍生全新平台产品设计语言
+            极快科技公共安全与应急大数据平台（GeokSafePlat）面向公共安全与应急领域，基于时空大数据和一张图技术，整合监控资源、救援物资、重点防护目标等，在一张图上完成时空数据接入、分析、可视化、决策与指挥，支持平战结合，提升应急效率。
           </p>
           <div className={styles.featureListWrapper}>
             <div className={styles.featureItem}>

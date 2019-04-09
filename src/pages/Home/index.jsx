@@ -20,16 +20,16 @@ export default class Home extends Component {
       <div className="home-page" style={{ background: '#fff' }}>
         <Header />
         <LandingIntroBanner />
-        <div id="iceworks">
+        <div id="iotPlat">
           <IceworksInfo />
         </div>
-        <div id="design">
+        <div id="securityPlat">
           <DesignLanguage />
         </div>
-        <div id="material">
+        <div id="resourcePlat">
           <Materials />
         </div>
-        <div id="brandlist">
+        <div id="industyCase">
           <BrandList />
         </div>
         <Footer />

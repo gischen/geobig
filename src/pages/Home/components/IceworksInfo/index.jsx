@@ -20,12 +20,12 @@ export default class ProductIntro extends Component {
       <div className={styles.wrapper}>
         <div className={styles.productContent}>
           <div className={styles.productInfo}>
-            <h3 className={styles.title}>Iceworks</h3>
+            <h3 className={styles.title}>物联网大数据平台</h3>
             <div className={styles.titleLine}>
               <div className={styles.titleHighlightLine} />
             </div>
             <p className={styles.desc}>
-              丰富模板一键创建，提供多种垂直领域模板，快速创建项目，支持风格切换，满足个性化需求；轻松操作页面管理，海量物料自由搭配，页面组合可视化操作更得心应手；开发调试一体化，集成运行环境零配置运行，开箱即用。
+              极快科技物联网大数据平台（GeokiotPlat）提供多类传感器设备实时监测数据的接入、存储、处理、分析、可视化与智能决策等应用；尤其对带有空间位置的传感器数据，基于自主研发的实时大数据分析引擎，提供实时的快速的智能分析和可视化，支持从监控大屏到手机端的多端响应式访问。
             </p>
             <Link to="">
               <Button type="secondary" className={styles.extraButton}>了解更多 &gt;</Button>

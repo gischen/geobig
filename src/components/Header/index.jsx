@@ -4,20 +4,20 @@ import './index.scss';
 
 const MENUS = [
   {
-    name: 'iceworks',
-    path: '#iceworks',
+    name: '物联网大数据平台',
+    path: '#iotPlat',
   },
   {
-    name: '设计',
-    path: '#design',
+    name: '公共安全与应急大数据平台',
+    path: '#securityPlat',
   },
   {
-    name: '物料',
-    path: '#material',
+    name: '自然资源大数据平台',
+    path: '#resourcePlat',
   },
   {
-    name: '品牌',
-    path: '#brandlist',
+    name: '行业案例',
+    path: '#industyCase',
   },
 ];
 
