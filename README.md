@@ -1,15 +1,16 @@
-# ice-website-homepage
+#www.geobig.cn网站代码
+> 说明
 
-该模板适用于产品类的首页介绍，默认内置一个页面和五个不同风格的展示区块
+本网站基于阿里的fusion框架搭建,采用模块化方式搭建的单页应用，作为www.geobig.cn的门户站点，
+主要展示[北京极快科技信息技术有限公司](www.geok.cc)的空间大数据产品和应用案例。
 
-> 使用文档
 
-使用:
+> 使用说明
 
 * 启动调试服务: `npm start`
 * 构建 dist: `npm run build`
 
-目录结构:
+> 目录结构:
 
 * react-router @4.x 默认采用 hashHistory 的单页应用
 * 入口文件: `src/index.js`
@@ -19,6 +20,3 @@
 * 布局文件: `src/layouts`
 * 通用组件: `src/components`
 * 页面文件: `src/pages`
-
-效果图:
-![screenshot](https://img.alicdn.com/tfs/TB1lvtMpQOWBuNjSsppXXXPgpXa-2840-1596.png)
