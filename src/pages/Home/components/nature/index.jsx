@@ -24,7 +24,7 @@ export default class IntroWithBackground extends Component {
             <div className={styles.titleHighlightLine} />
           </div>
           <p className={styles.desc}>
-            极快科技自然资源大数据平台（GeokResPlat）面向自然资源领域，基于时空大数据技术，建设山水林湖田草全类别自然资源大数据的管理、整合、处理、分析，支持国土空间全要素的可视化、分析、规划、决策应用。
+            极快科技自然资源大数据平台（GeokNaturePlat）面向自然资源领域，基于时空大数据技术，建设山水林湖田草全类别自然资源大数据的管理、整合、处理、分析，支持国土空间全要素的可视化、分析、规划、决策应用。
           </p>
           <Link to="">
             <Button className={styles.extraButton}>了解更多 &gt;</Button>

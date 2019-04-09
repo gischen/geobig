@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import LandingIntroBanner from './components/LandingIntroBanner';
-import IceworksInfo from './components/IceworksInfo';
-import DesignLanguage from './components/DesignLanguage';
-import Materials from './components/Materials';
+import IceworksInfo from './components/iot';
+import DesignLanguage from './components/safe';
+import Materials from './components/nature';
 import BrandList from './components/BrandList';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import SlideBanner from './components/SlideBanner';
 import BlackFooter from './components/BlackFooter';
+import AblityItems from './components/AblityItems';
 
 export default class Home extends Component {
   static displayName = 'Home';
@@ -22,16 +23,17 @@ export default class Home extends Component {
       <div className="home-page" style={{ background: '#fff' }}>
         <Header />
         <LandingIntroBanner />
-        <div id="iotPlat">
-          <IceworksInfo />
-        </div>
-        <div id="securityPlat">
+        <AblityItems />
+        <div id="SafePlat">
           <DesignLanguage />
         </div>
-        <div id="resourcePlat">
+        <div id="NaturePlat">
           <Materials />
         </div>
-        <div id="industyCase">
+        <div id="IotPlat">
+          <IceworksInfo />
+        </div>
+        <div id="IndustryCase">
           <SlideBanner />
         </div>
         <BlackFooter />

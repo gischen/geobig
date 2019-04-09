@@ -4,20 +4,20 @@ import './index.scss';
 
 const MENUS = [
   {
-    name: '物联网大数据平台',
-    path: '#iotPlat',
-  },
-  {
     name: '公共安全与应急大数据平台',
-    path: '#securityPlat',
+    path: '#SafePlat',
   },
   {
     name: '自然资源大数据平台',
-    path: '#resourcePlat',
+    path: '#NaturePlat',
   },
   {
-    name: '行业案例',
-    path: '#industyCase',
+    name: '物联网大数据平台',
+    path: '#IotPlat',
+  },
+  {
+    name: '行业应用案例',
+    path: '#IndustryCase',
   },
 ];
 
