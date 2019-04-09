@@ -6,6 +6,8 @@ import Materials from './components/Materials';
 import BrandList from './components/BrandList';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
+import SlideBanner from './components/SlideBanner';
+import BlackFooter from './components/BlackFooter';
 
 export default class Home extends Component {
   static displayName = 'Home';
@@ -30,9 +32,9 @@ export default class Home extends Component {
           <Materials />
         </div>
         <div id="industyCase">
-          <BrandList />
+          <SlideBanner />
         </div>
-        <Footer />
+        <BlackFooter />
       </div>
     );
   }
