@@ -35,8 +35,8 @@ export default class FeatureList extends Component {
                 alt=""
                 style={{ width: 86, height: 85 }}
               />
-              <h4 className={styles.featureTitle}>凸显内容</h4>
-              <p className={styles.featureDesc}>体现层次 弱化分割</p>
+              <h4 className={styles.featureTitle}>平战结合</h4>
+              <p className={styles.featureDesc}>平时练兵 战时应急</p>
             </div>
             <div className={styles.featureItem}>
               <img
@@ -44,8 +44,8 @@ export default class FeatureList extends Component {
                 alt=""
                 style={{ width: 90, height: 73 }}
               />
-              <h4 className={styles.featureTitle}>视觉趋势</h4>
-              <p className={styles.featureDesc}>突出色彩 图像辅助</p>
+              <h4 className={styles.featureTitle}>应急一张图</h4>
+              <p className={styles.featureDesc}>静态资源 动态资源 一张图呈现</p>
             </div>
             <div className={styles.featureItem}>
               <img
@@ -53,13 +53,13 @@ export default class FeatureList extends Component {
                 alt=""
                 style={{ width: 80, height: 68 }}
               />
-              <h4 className={styles.featureTitle}>模块兼容</h4>
-              <p className={styles.featureDesc}>模块结构 设计兼容</p>
+              <h4 className={styles.featureTitle}>智能决策</h4>
+              <p className={styles.featureDesc}>时空大数据 空间智能 辅助决策</p>
             </div>
           </div>
           <div className={styles.extraInfo}>
             <Link to="">
-              <Button type="secondary" className={styles.extraButton}>了解更多 &gt;</Button>
+              <Button type="secondary" className={styles.extraButton}>正在建设 ...</Button>
             </Link>
           </div>
         </div>

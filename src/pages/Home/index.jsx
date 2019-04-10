@@ -6,7 +6,7 @@ import Materials from './components/nature';
 import BrandList from './components/BrandList';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
-import SlideBanner from './components/SlideBanner';
+import SlideBanner from './components/case';
 import BlackFooter from './components/BlackFooter';
 import AblityItems from './components/AblityItems';
 

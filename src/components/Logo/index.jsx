@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 const LIGHT =
-  require('./images/TB1KmB6nntYBeNjy1XdXXXXyVXa-224-60.png');
+  require('./images/geok_logo.png');
 const DARK =
-  require('./images/TB1saOBbYGYBuNjy0FoXXciBFXa-218-58.png');
+  require('./images/geok_logo.png');
 
 export default class Logo extends Component {
   render() {
@@ -19,7 +19,7 @@ export default class Logo extends Component {
         }}
       >
         <a href="/" style={{ display: 'block', position: 'relative' }}>
-          <img src={logo} width="129" height="35" alt="logo" />
+          <img src={logo} width="200" height="30" alt="logo" />
         </a>
       </div>
     );

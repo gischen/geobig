@@ -70,11 +70,11 @@ const styles = {
     paddingLeft: '100px',
   },
   qrcode: {
-    width: '150px',
-    height: '150px',
+    width: '80px',
+    height: '80px',
     position: 'absolute',
     top: '0px',
-    right: '210px',
+    left: '0px',
   },
   subtit: {
     fontWeight: '400',

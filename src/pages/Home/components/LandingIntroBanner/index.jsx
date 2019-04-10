@@ -22,7 +22,7 @@ export default class LandingIntroBanner extends Component {
           className="landing-intro-banner-background"
           style={{
             backgroundImage:
-              `url(${require('./images/geok_back.png')})`,
+              `url(${require('./images/geok_back.jpg')})`,
             backgroundPosition: 'center',
           }}
         />
